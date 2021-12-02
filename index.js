@@ -128,7 +128,7 @@ const replaceTweetData = (text, id_str, display_url, profile_image_url_https, na
   tweetSection.insertAdjacentHTML('beforeend', tweetHtml)
 }
 
-const LOCAL_URL = "http://rraapi.wassan.org/api/twitter/users-timeline"
+const LOCAL_URL = "https://rraapi.wassan.org/api/twitter/users-timeline"
 const HOSTED_URL = "https://rraapi.wassan.org/api/twitter/users-timeline"
 
 function tweetTimeline() {
