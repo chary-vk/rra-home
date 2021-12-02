@@ -128,8 +128,8 @@ const replaceTweetData = (text, id_str, display_url, profile_image_url_https, na
   tweetSection.insertAdjacentHTML('beforeend', tweetHtml)
 }
 
-const LOCAL_URL = "http://localhost:8080/api/twitter/users-timeline"
-const HOSTED_URL = "https://dev-dot-kp-vanilla.el.r.appspot.com/api/twitter/users-timeline"
+const LOCAL_URL = "http://rraapi.wassan.org/api/twitter/users-timeline"
+const HOSTED_URL = "https://rraapi.wassan.org/api/twitter/users-timeline"
 
 function tweetTimeline() {
   const tweetSection = document.querySelector(".tweet-section");
